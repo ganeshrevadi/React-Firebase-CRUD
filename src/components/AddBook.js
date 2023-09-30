@@ -58,7 +58,7 @@ const AddBook = ({ id, setBookId }) => {
     if (id !== undefined && id !== "") {
       editHandler();
     }
-  }, [id, editHandler]);
+  }, [id]);
   return (
     <>
       <div className="p-4 box">
